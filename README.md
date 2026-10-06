@@ -80,6 +80,7 @@ Every pin and Lua name, for every mode: [docs/PINS.md](docs/PINS.md).
 
 - **Designer Emulate**, in 10.0.3 and 10.5: the demo design, every page, and made-up jobs built as whole designs (a school paging console, a boardroom, a lecture-hall camera desk, a restaurant's music zones, a lobby kiosk, and eleven Drag & Drop jobs with up to 64 sources and screens).
 - **On hardware:** a tester ran it on a Core 110f and a TSC-101-G3 with Q-SYS 10.3 (XY Pad mode). It worked, at about 0.2% CPU, and their notes were fixed in the next version. The other modes haven't been on a panel yet.
+- **Not yet on real gear:** the camera drivers (Q-SYS cameras and VISCA) have only been tested against simulated cameras, and the Teams post and webhooks against a fake web server.
 - **Offline, on every release:** a test harness that runs the plugin under the Core's script rules (hundreds of scripted tests, thousands of layout checks, a fuzzer and a check that no call comes near the Core's per-call limit).
 
 Q-SYS 10.4 or later is recommended. If you try it, please say what happened: panel model, firmware, and whether drags feel smooth.
